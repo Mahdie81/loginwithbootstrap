@@ -1,0 +1,40 @@
+
+:root{
+    --darkblue:#242B5A;
+}
+
+
+body{
+    padding:0 !important;
+    margin:0 !important;
+    direction:rtl;
+}
+.enterbtn{
+    background-color:var(--darkblue);
+    color:white !important;
+    height: 36px;
+    width: 284px;
+    left: 865px;
+    top: 386px;
+    border-radius: 8px;
+
+}
+button{
+    border:0;
+    background-color: inherit;
+
+}
+
+input {
+    height: 38px;
+    width: 284px;
+    font-family: inherit;
+    font-weight: bolder;
+    border:solid .5px var(--darkblue) !important;
+    border-radius:1rem;
+}
+input:focus{
+    outline:solid 1px;
+
+}
+
